@@ -10,7 +10,7 @@
 #### my_shell
 * 命令列提示 `1092926 ms>`
 * 輸入
-	- `hello`，印出 `Parent process(*pid*) is int the FOREGOUND`
+	- `hello`，印出 `Parent process(**pid**) is int the FOREGOUND`
 	- `child`， 在前景執行 `child` 執行檔（`parent process` 會 wait `child process`）
 	- `child &`，在背景執行 `child` 執行檔
 	- `exit`，結束程式
@@ -25,11 +25,11 @@
 * 前景執行
 	* 命令列提示 `1092926 child>`
 	* 輸入
-		- `hello`，印出 `Child process(*pid*) is in the FOREGROUND.`
+		- `hello`，印出 `Child process(**pid**) is in the FOREGROUND.`
 		- `exit`，結束程式
 * 背景執行
 	* 沒有輸入
-	* 印出 `Child process(*pid*) is in the BACKGROUND.`
+	* 印出 `Child process(**pid**) is in the BACKGROUND.`
 	* 間隔 `10` 秒
 
 #### Demo
